@@ -111,6 +111,7 @@ body {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: ease 0.3s;
+    pointer-events: none;
 }
 
 .kyle:hover ~ .centered {
